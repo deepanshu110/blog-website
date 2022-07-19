@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+<h1>naruto</h1>
+<p>the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.  </p>
+
+
+
+
+  <% posts.forEach(function(post) { %>
+
+    <h1> <%= post.title %></h1>
+    <p> <%= post.para %> </p>
+
+  <%  }); %>
+
+
+
+
+
+
+<%- include("partials/footer"); -%>
